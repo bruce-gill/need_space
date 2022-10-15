@@ -10,21 +10,30 @@
     </head>
     <body>
         <div id="main-row" class="row">
-            <div class="col-sm-12">
+            <div class="col-md-6">
                 <input id="submitToday" type="submit" value="Picture of the Day"></input>
-            </div>
-            <div class="col-sm-6">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-md-6">
                         <div id="todayResults"></div>
+                        <div id="todayCopyright" class="explanationText"></div>
                     </div>
-                    <div class="col-sm-6">
-                        <div id="todayExplanation"></div>
+                    <div class="col-md-6">
+                        <div id="todayExplanation" class="explanationText"></div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                
+            <div class="col-md-6">
+                <input type="date" id="dateInput">
+                <input id="submitDate" type="submit" value="Picture from Date Choice"></input>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="dateResults"></div>
+                        <div id="dateCopyright" class="explanationText"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="dateExplanation" class="explanationText"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

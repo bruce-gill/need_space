@@ -7,7 +7,12 @@ body{
 }
 footer{
     text-align: center;
-}
-#todayExplanation{
     color: #d1d1d1;
+}
+.explanationText{
+    color: #d1d1d1;S
+}
+
+input{
+    margin: 10px;
 }
