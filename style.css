@@ -1,7 +1,10 @@
 body{
     background-color: #000;
 }
-
+h1{
+    text-align: center;
+    color: #d1d1d1;
+}
 #main-row{
     margin: 15px;
 }
